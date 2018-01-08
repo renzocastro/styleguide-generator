@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="lh lq sg no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{title}}</title>
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, shrink-to-fit=no, width=device-width">
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="../node_modules/prismjs/themes/prism-okaidia.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- ./build/scripts -->
+  <script src="scripts/modernizr-2.8.3.min.js"></script>
+  <script>
+    if (!window.HTMLPictureElement) {
+      document.createElement('picture');
+      Modernizr.load({load:'scripts/respimage-type.min.js'});
+    }
+  </script>
+</head>
+<body>
+  <header class="sg-header">
+    <a href="#">Logo</a>
+    <nav>
+      <a href="#" class="lh__link">Link</a>
+    </nav>
+  </header>
+  <section class="sg-section">
+    <sidebar class="sg-sidebar">
+      <nav>
+        <ul>
+          <li><a href="#" class="lh__link-simple">Link</a></li>
+        </ul>
+      </nav>
+    </sidebar>
+    <main class="sg-main lq-container">
+      <div class="lq-container-inner">
+        {{{body}}}
+      </div>
+    </main>
+  </section>
+  <script src="scripts/base.js"></script>
+</body>
+</html>

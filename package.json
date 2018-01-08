@@ -1,0 +1,23 @@
+{
+  "name": "styleguide-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "handlebars": "^4.0.10",
+    "marked": "^0.3.6",
+    "mkdirp": "^0.5.1",
+    "postcss-cli": "^4.1.0",
+    "rollup": "^0.43.0"
+  },
+  "dependencies": {
+    "prismjs": "^1.6.0"
+  }
+}
